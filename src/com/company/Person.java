@@ -14,7 +14,7 @@ public abstract class Person
     }
     public abstract String getFirstName();
     public abstract String getFamilyName();
-    
+
     public boolean equals(Person p)
     {
         if(firstName.equals(familyName)) {
